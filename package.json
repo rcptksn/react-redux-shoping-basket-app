@@ -1,0 +1,46 @@
+{
+  "name": "react-redux-shoping-basket-app",
+  "version": "1.0.0",
+  "description": "React &amp; Redux ile alışveriş sepeti uygulaması",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open",
+    "build": "rm -rf .cache/ dist/ && parcel build index.html --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcptksn/react-redux-shoping-basket-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcptksn/react-redux-shoping-basket-app/issues"
+  },
+  "homepage": "https://github.com/rcptksn/react-redux-shoping-basket-app#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "node-sass": "^4.14.1",
+    "parcel-plugin-static-files-copy": "^2.3.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "cssnano": "^4.1.10"
+  },
+  "staticFiles": {
+    "staticPath": [
+      {
+        "outDirPattern": "**/dist",
+        "staticPath": "src/assets"
+      }
+    ]
+  }
+}
